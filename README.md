@@ -4,7 +4,7 @@ You will find here some tricks about git usage. Hope it could help you.
 ## Update git submodule to head revision
 
 Idea here is to change a submodule to head revision. This script take a submodule folder as
-parameter.
+parameter. NB: the script does the change, add a commit but __do not push on remote__.
 
 ```
 #!/bin/sh
